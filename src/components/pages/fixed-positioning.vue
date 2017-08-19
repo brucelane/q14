@@ -1,7 +1,11 @@
 <template>
   <div class="layout-padding text-center">
     <p class="caption" style="margin-top: 72px">
-      Chat.
+      Notice the four buttons positioned in each corner of the page.
+      <br>
+      If you will play with the Layout, you'll see that their position
+      changes to accomodate page resize, drawer panels appearing / dissapearing,
+      or header/footer going in & out of view or changing its size.
     </p>
 
     <q-fixed-position corner="top-right" :offset="[18, 18]">
